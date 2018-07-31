@@ -8,7 +8,7 @@ use App\Post;
 class PostSeeder extends Seeder
 {
 
-    protected $posts; 
+    protected $posts;
     protected $faker;
 
     public function __construct(Post $posts, Faker $faker){
